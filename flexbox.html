@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> FlexBox </title>
+    <!--
+    <link rel="stylesheet" href="spw.css">
+    <link rel="stylesheet" href="timeline.css">
+    
+-->
+
+   <link rel="stylesheet" href="bootstrap.min.css">
+   
+    <style>
+        #flexes {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #flex1 {
+            flex: 1;
+            order: 4;
+            background-color: aqua;
+        }
+        
+        #flex2 {
+            flex: 1;
+            order: 3;
+            background-color:red;
+        }
+        
+        #flex3 {
+            flex: 1;
+            order: 2;
+            background-color: green;
+        }
+        
+        #flex4 {
+            flex: 1;
+            order: 1;
+            background-color: orangered;
+        }
+        
+        @media screen and (max-width:600px)
+            {
+                #flexes
+                {
+                    display: flex;
+                    flex-direction: column;
+                }
+        }
+            
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <div id="flexes">
+        <div id="flex1">
+            <h1>Flex Box 1</h1>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+        </div>
+        <div id="flex2">
+            <h1>Flex Box 2</h1>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+        </div>
+        <div id="flex3">
+            <h1>Flex Box 3</h1>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+        </div>
+        <div id="flex4">
+            <h1>Flex Box 4</h1>
+            <p> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. </p>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
